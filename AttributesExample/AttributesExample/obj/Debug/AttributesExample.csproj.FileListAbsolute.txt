@@ -12,3 +12,17 @@ C:\Projects\Visual Studio 2015\AttributesExample\AttributesExample\obj\Debug\Att
 C:\Projects\Visual Studio 2015\AttributesExample\AttributesExample\obj\Debug\AttributesExample.csproj.GenerateResource.Cache
 C:\Projects\Visual Studio 2015\AttributesExample\AttributesExample\obj\Debug\AttributesExample.exe
 C:\Projects\Visual Studio 2015\AttributesExample\AttributesExample\obj\Debug\AttributesExample.pdb
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\bin\Debug\AttributesExample.exe.config
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.exe
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.pdb
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\bin\Debug\AttributesExample.exe
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\bin\Debug\AttributesExample.pdb
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.csprojResolveAssemblyReference.cache
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\MainWindow.g.cs
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\App.g.cs
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample_MarkupCompile.cache
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample_MarkupCompile.lref
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\MainWindow.baml
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.g.resources
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.Properties.Resources.resources
+C:\Projects\Visual Studio 2015\Fixed-Length-Decorator-Example\AttributesExample\AttributesExample\obj\Debug\AttributesExample.csproj.GenerateResource.Cache
