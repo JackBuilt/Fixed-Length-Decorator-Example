@@ -34,40 +34,40 @@ namespace AttributesExample
             DataList.Add(data);
         }
 
-        
+
         private void CheckData()
         {
             Data data = DataList[0];
 
-            string id = data.ID;
-            int lenId = getFixedLength("ID");
+            //string id = data.ID;
+            //int lenId = getFixedLength("ID");
+
+            int lenId = Utility.GetFixedLength(typeof(Data), "Name");
         }
 
 
 
-        private int getFixedLength(string propName)
-        {
-            var type = typeof(Data);// obj.GetType();
-            var properties = type.GetProperties();
+        //private int getFixedLength(string propName)
+        //{
+        //    var type = typeof(Data);
+        //    var properties = type.GetProperties();
 
-            foreach (var property in properties)
-            {
-                var attributes = property.GetCustomAttributes(false);
-                foreach (var attribute in attributes)
-                {
-                    if (attribute.GetType() == typeof(FixedLength) && property.Name == propName)
-                    {
-                        FixedLength a = (FixedLength)attribute;
-                        int test = a.Length;
-                        //string msg = "The Primary Key for the {0} class is the {1} property";
-                        //Console.WriteLine(msg, type.Name, property.Name);
-                        return test;
-                    }
-                }
-            }
+        //    foreach (var property in properties)
+        //    {
+        //        var attributes = property.GetCustomAttributes(false);
+        //        foreach (var attribute in attributes)
+        //        {
+        //            if (attribute.GetType() == typeof(FixedLength) && property.Name == propName)
+        //            {
+        //                FixedLength a = (FixedLength)attribute;
+        //                int len = a.Length;
+        //                return len;
+        //            }
+        //        }
+        //    }
 
-            return 0;
-        }
+        //    return 0;
+        //}
 
     }
 
@@ -84,6 +84,31 @@ namespace AttributesExample
         public string Value { get; set; }
     }
 
+
+
+    public static class Utility
+    {
+        public static int GetFixedLength(Type ClassName, string propName)
+        {
+            var properties = ClassName.GetProperties();
+
+            foreach (var property in properties)
+            {
+                var attributes = property.GetCustomAttributes(false);
+                foreach (var attribute in attributes)
+                {
+                    if (attribute.GetType() == typeof(FixedLength) && property.Name == propName)
+                    {
+                        FixedLength a = (FixedLength)attribute;
+                        int len = a.Length;
+                        return len;
+                    }
+                }
+            }
+
+            return 0;
+        }
+    }
 
 
 
