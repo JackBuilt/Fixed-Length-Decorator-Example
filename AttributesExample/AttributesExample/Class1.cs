@@ -32,6 +32,8 @@ namespace AttributesExample
             data.Name = "SecondVar";
             data.Value = "This is string value two";
             DataList.Add(data);
+
+            // Added comment for GitHub
         }
 
 
